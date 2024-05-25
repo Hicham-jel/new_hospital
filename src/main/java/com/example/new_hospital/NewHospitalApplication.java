@@ -31,8 +31,8 @@ private PatientRepository patientRepository;
         //Patient patient1=new Patient(null,"Amine",new Date(),false,52);
         //3eme sol
     //Patient patient2=Patient.builder().id(null).nom("Imane").dateNaissance(new Date()).malade(false).score(96).build();
-        patientRepository.save(new Patient(null,"Amine",new Date(),false,52));
-        patientRepository.save(new Patient(null,"Hicham",new Date(),false,70));
-        patientRepository.save(new Patient(null,"Imane",new Date(),true,85));
+       // patientRepository.save(new Patient(null,"Amine",new Date(),false,900));
+        //patientRepository.save(new Patient(null,"Hicham",new Date(),false,200));
+        //patientRepository.save(new Patient(null,"Imane",new Date(),true,500));
     }
 }
